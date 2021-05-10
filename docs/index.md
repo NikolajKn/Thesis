@@ -29,7 +29,7 @@ z datasetu EMBER za účelom detekcie malvérov.
 
 
 #### Technológie, dokumentácie a tutoriály
-
+[Diplomová práca](https://www.overleaf.com/read/gtbkjmyjvrrg)
 
 
 
