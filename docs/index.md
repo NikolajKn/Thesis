@@ -12,7 +12,7 @@
 **Anotácia:** Cieľom práce je formou empirickej evlavácie porovnať výkonnosť rôznych
 nástrojov (napr. DL Learner, DL-FOIL, Fuzzy DL Learner, prípadne iných)
 na extrakciu ontologických konceptov na ontologicky anotovaných dátach
-z datasetu EMBER za účelom detekcie malvérov.
+z datasetu EMBER za účelom detekcie malvérov.  
 [Zadanie Práce](ZadaniePrace.PDF)
 
 
