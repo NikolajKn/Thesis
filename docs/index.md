@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Diplomová práca
 
-You can use the [editor on GitHub](https://github.com/NikolajKn/Thesis/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
+**Prezentácia**:  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+**Názov:** Detekcia malvéru pomocou extrakcie ontologických konceptov 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Študent:** Bc. Nikolaj Kniha  
 
-```markdown
-Syntax highlighted code block
+**Školiteľ:** doc. RNDr. Martin Homola, PhD.
 
-# Header 1
-## Header 2
-### Header 3
+**Anotácia:** Cieľom práce je formou empirickej evlavácie porovnať výkonnosť rôznych
+nástrojov (napr. DL Learner, DL-FOIL, Fuzzy DL Learner, prípadne iných)
+na extrakciu ontologických konceptov na ontologicky anotovaných dátach
+z datasetu EMBER za účelom detekcie malvérov.
+[Zadanie Práce](ZadaniePrace.PDF)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Denník
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Plán práce
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NikolajKn/Thesis/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Zdroje
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+#### Technológie, dokumentácie a tutoriály
+
+
+
+
+
+
