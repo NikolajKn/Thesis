@@ -1,6 +1,6 @@
 ## Diplomová práca
 
-**Prezentácia**:  [Stiahnuť prezentáciu](ProjektovySeminar2.pptx)
+**Prezentácia**:  [Stiahnuť prezentáciu](ProjektovySeminar2.pptx)  
 **Zdrojové súbory**:  [Stiahnuť zip](Thesis.zip)
 
 
@@ -19,9 +19,9 @@ z datasetu EMBER za účelom detekcie malvérov.
 
 
 ### Plán práce
-Úpravy ontológie pre sieťové porty
-Získanie výsledkov z DL-learner
-Úprava ontológií pre zlepšennie výsledkov
+Úpravy ontológie pre sieťové porty  
+Získanie výsledkov z DL-learner  
+Úprava ontológií pre zlepšennie výsledkov  
 
 
 
