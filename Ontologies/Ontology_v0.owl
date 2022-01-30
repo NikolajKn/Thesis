@@ -65,6 +65,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime1Hour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime1Hour">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime30Minutes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime30Minutes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime5Minutes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime5Minutes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#nextInTime"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -213,6 +237,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Chat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Chat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Registered"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Child -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Child">
@@ -262,6 +294,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dangerous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dangerous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Registered"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dialer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dialer">
@@ -306,6 +354,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Fraud">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Incident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Gaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Gaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Registered"/>
     </owl:Class>
     
 
@@ -406,6 +462,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Outage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Availability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#PeerToPeer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#PeerToPeer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Registered"/>
     </owl:Class>
     
 
@@ -534,6 +598,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Streaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Streaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Registered"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#System -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#System">
@@ -639,238 +711,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#110 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#110">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#119 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#119">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#123 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#123">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#135 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#135">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#136 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#136">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#137 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#137">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#138 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#138">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#139 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#139">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#143 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#143">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#161 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#161">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#162 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#162">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#20 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#20">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#21 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#21">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#22 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#22">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#23 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#23">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#25 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#25">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#389 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#389">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#443 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#443">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#50 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#50">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#51 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#51">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#53 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#53">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#67 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#67">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#68 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#68">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#69 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#69">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#80 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#80">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#989 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#989">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#990 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#990">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#993 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#993">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#995 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#995">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -882,10 +722,92 @@
     
 
 
-    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#IP1 -->
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#20 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#IP1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#NetworkNode"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dangerous"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Common"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Dangerous"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#443 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#443">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#563 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#563">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#636 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#636">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#989 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#989">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#990 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#990">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#993 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#993">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#995 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#995">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
     </owl:NamedIndividual>
     
 
@@ -993,39 +915,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Trojan"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Virus"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Worm"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#Encrypted"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#110"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#119"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#123"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#135"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#136"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#137"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#138"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#139"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#143"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#161"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#162"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#20"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#21"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#22"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#23"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#25"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#389"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#443"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#50"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#51"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#53"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#67"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#68"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#69"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#80"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#989"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nikolaj/ontologies/2021/3/untitled-ontology-6#990"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

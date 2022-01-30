@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasProtocol -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasProtocol">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#hasNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#isAssigned -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#isAssigned">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#unauthorizedUse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#unauthorizedUse">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#AssignedTCP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#AssignedTCP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#TCP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedTCP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#AssignedUDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#AssignedUDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UDP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedUDP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Chat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Chat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Common -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Common">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#WellKnown"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Encrypted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dangerous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dangerous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#DifferentProtocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#DifferentProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dynamic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dynamic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Encrypted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Encrypted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#WellKnown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Gaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Gaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Malicious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Malicious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PeerToPeer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PeerToPeer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Port"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Streaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Streaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#TCP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#TCP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UDP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedTCP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedTCP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#TCP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedUDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UnassignedUDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#UDP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#WellKnown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#WellKnown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PortType"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Chat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Database"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Gaming"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Malicious"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#PeerToPeer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Streaming"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dangerous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Dynamic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#Registered"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zz02f4693/ontologies/2022/0/untitled-ontology-10#WellKnown"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
